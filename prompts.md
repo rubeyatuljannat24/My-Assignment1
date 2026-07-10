@@ -1,0 +1,1 @@
+provide me a placeholder section of venues for a developer conference  2026 using html,css without any responsive element

@@ -17,13 +17,13 @@ nav {
 .logo img {
   width: 130px;
 }
-ul {
+.navbar {
   display: flex;
   list-style: none;
   gap: 24px;
 }
 
-ul li a {
+.navbar li a {
   color: #575757;
   text-decoration: none;
 }
@@ -73,11 +73,13 @@ ul li a {
   color: white;
   border: none;
   cursor: pointer;
+
 }
+/* speakersection */
 .card-container{
   max-width: 1200px;
-   margin: 60px auto;
-
+  margin-top: 20px;
+  border-radius: 10px;
 }
 .card-container h2{
   margin-bottom: 30px;
@@ -89,16 +91,140 @@ ul li a {
 .card{
 display: grid;
 justify-content: space-between;
-gap: 20px;
+gap: 56px;
 grid-template-columns: repeat(2,1fr);
-border-radius: 12px;
+
 
 }
 .card .card-content{
 background-color: #ffffff;
-border-radius: 20px;
 }
 .upper{
   color:#2563eb;
   font-size: 12px;
+}
+.card-content h3{
+font-size: 20px;
+font-weight: 700;
+}
+.card-content p{
+font-size: 14px;
+font-weight: 400;
+color: #575757;
+}
+/* pricing card */
+.pricing-card-container{
+  margin-top: 30px;
+  width: 100%;
+}
+.pricing-card-container h2{
+  font-size: 48px;
+  text-decoration: none;
+  font-weight: 700px;
+  text-align: center;
+}
+.pricing-card-container h6{
+font-size: 16px;
+text-decoration: none;
+font-weight: 400px;
+text-align: center;
+margin-bottom: 30px;
+color: #575757;
+}
+.price-card{
+  margin: auto;
+  display: grid;
+  max-width: 1100px;
+  grid-template-columns: repeat(3,1fr);
+  gap: 10px;
+}
+.container-card-2{
+  background-color: #eee8e8;
+  border-radius: 10px;
+  padding: 10% 15%;
+  text-align: center;
+}
+/* AI */
+body{
+    background:#f4f7fb;
+}
+
+.venue-section{
+    width:1200px;
+    margin:80px auto;
+}
+
+.section-subtitle{
+    text-align:center;
+    color:#2563eb;
+    font-size:18px;
+    letter-spacing:2px;
+    margin-bottom:10px;
+    font-weight:bold;
+}
+
+.section-title{
+    text-align:center;
+    font-size:40px;
+    color:#222;
+    margin-bottom:15px;
+}
+
+.section-description{
+    width:700px;
+    margin:0 auto 60px;
+    text-align:center;
+    color:#666;
+    line-height:28px;
+    font-size:18px;
+}
+
+.venue-container{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    gap:60px;
+}
+
+.venue-image img{
+    width:560px;
+    height:420px;
+    object-fit:cover;
+    border-radius:12px;
+}
+
+.venue-content{
+    width:520px;
+}
+
+.venue-content h3{
+    font-size:34px;
+    margin-bottom:30px;
+    color:#222;
+}
+
+.info-box{
+    display:flex;
+    align-items:flex-start;
+    gap:20px;
+    background:#fff;
+    padding:20px;
+    margin-bottom:18px;
+    border-radius:10px;
+    border-left:5px solid #2563eb;
+    box-shadow:0 4px 12px rgba(0,0,0,.08);
+}
+
+.info-box span{
+    font-size:28px;
+}
+
+.info-box h4{
+    margin-bottom:6px;
+    color:#222;
+}
+
+.info-box p{
+    color:#666;
+    line-height:24px;
 }
