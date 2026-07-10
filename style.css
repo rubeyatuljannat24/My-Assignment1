@@ -1,10 +1,10 @@
-*{
+* {
   margin: 0;
   padding: 0;
- 
+  font-family: "Inter", sans-serif;
 }
 
-nav{
+nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -13,24 +13,23 @@ nav{
   padding: 12px 8%;
   max-width: 1200px;
   margin: auto;
-  
 }
-.logo{
+.logo img {
   width: 130px;
 }
-ul{
+ul {
   display: flex;
   list-style: none;
   gap: 24px;
 }
 
-ul li a{
+ul li a {
   color: #575757;
   text-decoration: none;
 }
-.common-btn{
-  background-color: #1D4ED8;
-  padding: 10px 20px;
+.common-btn {
+  background-color: #1d4ed8;
+  padding: 15px 30px;
   border-radius: 8px;
   font-weight: bold;
   font-size: 15px;
@@ -38,32 +37,68 @@ ul li a{
   border: none;
   cursor: pointer;
 }
-section{
-  background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('./assets/banner.jpg');
+.hero-parent {
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("./assets/banner.jpg");
   height: 90vh;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  display: flex;
   justify-content: center;
   align-items: center;
-}
-.hero-parent{
-  display: flex;
-  color: white;
   text-align: center;
   display: grid;
   gap: 20px;
+}
+.hero-content{
+  color: #ffffff;
+}
+.hero-content h1 {
+  font-weight: bold;
+  font-size: 80px;
+}
+.hero-content p {
+  font-size: 22px;
+  font-weight: 400;
+  margin-bottom: 45px;
+  
+}
+.hero-btn {
+  background-color: #1d4ed8;
+  padding: 20px 40px;
+  border-radius: 8px;
+  font-weight: bold;
+  font-size: 18px;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+.card-container{
+  max-width: 1200px;
+   margin: 60px auto;
 
 }
-.hero-content h1{
-font-weight: bold;
-font-size: 70px;
-}
-.hero-content p{
-font-size: 20px;
-}
-.hero-btn{
-  margin-top: 16px;
+.card-container h2{
+  margin-bottom: 30px;
   text-align: center;
+  font-size: 56px;
+  font-weight: 700;
+ 
+}
+.card{
+display: grid;
+justify-content: space-between;
+gap: 20px;
+grid-template-columns: repeat(2,1fr);
+border-radius: 12px;
+
+}
+.card .card-content{
+background-color: #ffffff;
+border-radius: 20px;
+}
+.upper{
+  color:#2563eb;
+  font-size: 12px;
 }
