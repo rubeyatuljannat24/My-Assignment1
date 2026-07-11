@@ -47,6 +47,7 @@ nav {
   background-size: cover;
   background-position: center;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
@@ -66,6 +67,7 @@ nav {
   
 }
 .hero-btn {
+  margin-top: 130px;
   background-color: #1d4ed8;
   padding: 20px 40px;
   border-radius: 8px;
@@ -192,7 +194,7 @@ color: #575757;
 .price-card ul{
   display: flex;
   flex-direction: column;
-  gap: 15px;
+  gap: 25px;
     text-align:left;
     padding: 20px;
   
@@ -223,7 +225,7 @@ li::marker{
 }
 .standard-btn{
  background-color: #ffffff;
-  padding: 15px 20px;
+  padding: 10px 70px;
   border-radius: 8px;
   font-weight: bold;
   font-size: 14px;
@@ -231,9 +233,19 @@ li::marker{
   border:1px solid #2563eb;
   cursor: pointer;
 }
+.pro-btn{
+ background-color: #2563eb;
+  padding: 10px 90px;
+  border-radius: 8px;
+  font-weight: bold;
+  font-size: 14px;
+  color: #ffffff;
+  border:1px solid #2563eb;
+  cursor: pointer;
+}
 .contact-btn{
  background-color: #ffffff;
-  padding: 15px 20px;
+  padding: 10px 80px;
   border-radius: 8px;
   font-weight: bold;
   font-size: 14px;
