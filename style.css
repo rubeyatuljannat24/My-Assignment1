@@ -48,7 +48,7 @@ nav {
   justify-content: center;
   align-items: center;
   text-align: center;
-  display: grid;
+  display: flex;
   gap: 20px;
 }
 .hero-content{
@@ -76,13 +76,14 @@ nav {
 
 }
 /* speakersection */
-.card-container{
-  max-width: 1200px;
-  margin-top: 20px;
-  border-radius: 10px;
+.speaker-container{
+  width: 1200px;
+  margin: 20px auto;
+  
+
 }
-.card-container h2{
-  margin-bottom: 30px;
+.speaker-container h2{
+  margin-bottom: 40px;
   text-align: center;
   font-size: 56px;
   font-weight: 700;
@@ -91,21 +92,29 @@ nav {
 .card{
 display: grid;
 justify-content: space-between;
-gap: 56px;
+gap: 40px;
 grid-template-columns: repeat(2,1fr);
 
 
 }
-.card .card-content{
+.card-pic{
+  border: 1px solid #e5e5e5;
+  border-radius: 10px;
+  overflow: hidden;
 background-color: #ffffff;
+
 }
-.upper{
+.card-content{
+  padding: 20px;
+}
+.info-upper-card{
   color:#2563eb;
   font-size: 12px;
 }
 .card-content h3{
 font-size: 20px;
 font-weight: 700;
+margin: 8px 0;
 }
 .card-content p{
 font-size: 14px;
