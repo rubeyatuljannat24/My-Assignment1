@@ -27,12 +27,12 @@ nav {
   color: #575757;
   text-decoration: none;
 }
-.common-btn {
+.nav-btn {
   background-color: #1d4ed8;
   padding: 15px 30px;
   border-radius: 8px;
-  font-weight: bold;
-  font-size: 15px;
+  font-weight: 700;
+  font-size: 16px;
   color: white;
   border: none;
   cursor: pointer;
@@ -40,7 +40,7 @@ nav {
 /* banner section */
 .hero-parent {
   background-image:
-    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
     url("./assets/banner.jpg");
   height: 90vh;
   background-repeat: no-repeat;
@@ -71,8 +71,8 @@ nav {
   background-color: #1d4ed8;
   padding: 20px 40px;
   border-radius: 8px;
-  font-weight: bold;
-  font-size: 18px;
+  font-weight: 700;
+  font-size: 24px;
   color: white;
   border: none;
   cursor: pointer;
@@ -81,7 +81,7 @@ nav {
 /* speakersection */
 .speaker-container{
   width: 1200px;
-  margin: 20px auto;
+  margin: 50px auto;
   
 
 }
@@ -98,13 +98,12 @@ justify-content: space-between;
 gap: 40px;
 grid-template-columns: repeat(2,1fr);
 
-
 }
 .card-pic{
   border: 1px solid #e5e5e5;
   border-radius: 10px;
   overflow: hidden;
-background-color: #ffffff;
+  background-color: #ffffff;
 
 }
 .card-content{
@@ -126,19 +125,19 @@ color: #575757;
 }
 /* pricing card */
 .pricing-card-container{
-  margin-top: 30px;
+  margin-top: 50px;
   width: 100%;
 }
 .pricing-card-container h2{
   font-size: 48px;
   text-decoration: none;
-  font-weight: 700px;
+  font-weight: 700;
   text-align: center;
 }
 .subtitle{
 font-size: 16px;
 text-decoration: none;
-font-weight: 400px;
+font-weight: 400;
 text-align: center;
 margin-bottom: 30px;
 color: #575757;
@@ -152,11 +151,11 @@ color: #575757;
 }
 .price-card h3{
   font-size: 44px;
-  font-weight: 700px;
+  font-weight: 700;
 }
 .container-card-p1, .container-card-p2{
   font-size: 13px;
-  font-weight: 600px;
+  font-weight: 600;
   color: #575757;
 }
 .pricing-card-container{
@@ -166,13 +165,13 @@ color: #575757;
 .pricing-card-container h2{
   font-size: 48px;
   text-decoration: none;
-  font-weight: 700px;
+  font-weight: 700;
   text-align: center;
 }
 .subtitle{
 font-size: 16px;
 text-decoration: none;
-font-weight: 400px;
+font-weight: 400;
 text-align: center;
 margin-bottom: 30px;
 color: #575757;
@@ -182,42 +181,41 @@ color: #575757;
   display: grid;
   max-width: 1100px;
   grid-template-columns: repeat(3,1fr);
-  gap: 10px;
+  gap: 20px;
 }
-.price-card h3{
-  font-size: 44px;
-  font-weight: 700px;
-}
-.price-card hr{
-  margin-bottom: 20px;
+.pricing-card-container hr{
+  margin-top: 20px;
+  border: 1px solid #e5e7eb;
 }
 .price-card ul{
   display: flex;
   flex-direction: column;
-  gap: 25px;
-    text-align:left;
-    padding: 20px;
+  gap: 20px;
+  text-align:left;
+  padding: 20px;
   
 }
 .container-card-p1, .container-card-p2{
   font-size: 13px;
-  font-weight: 600px;
+  font-weight: 600;
   color: #575757;
 }
 .container-card-p2{
-  font-weight: 400px;
+  font-weight: 400;
 }
 .container-card-2{
   background-color: #ffffff;
-  border-radius: 10px;
-  padding: 10% 15%;
+  border-radius: 12px;
+  padding: 20px ;
   text-align: center;
+  border: 1px solid #e5e7eb;
+  min-height: 420px;
 }
 .container-card-3{
   background-color: #0d1b2a;
   color: #ffffff;
-  border-radius: 10px;
-  padding: 10% 15%;
+  border-radius: 12px;
+  padding:20px;
   text-align: center;
 }
 li::marker{
@@ -225,9 +223,9 @@ li::marker{
 }
 .standard-btn{
  background-color: #ffffff;
-  padding: 10px 70px;
+  padding: 10px 90px;
   border-radius: 8px;
-  font-weight: bold;
+  font-weight: 600;
   font-size: 14px;
   color: #2563eb;
   border:1px solid #2563eb;
@@ -235,9 +233,9 @@ li::marker{
 }
 .pro-btn{
  background-color: #2563eb;
-  padding: 10px 90px;
+  padding: 10px 95px;
   border-radius: 8px;
-  font-weight: bold;
+  font-weight: 600;
   font-size: 14px;
   color: #ffffff;
   border:1px solid #2563eb;
@@ -245,9 +243,9 @@ li::marker{
 }
 .contact-btn{
  background-color: #ffffff;
-  padding: 10px 80px;
+  padding: 10px 90px;
   border-radius: 8px;
-  font-weight: bold;
+  font-weight: 600;
   font-size: 14px;
   color: #0d1b2a;
   border:1px solid #0d1b2a;
